@@ -1,73 +1,33 @@
-# Getting Started with Create React App
+# MORE STATS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**More Stats** is a personal project I started to improve my skills in web development, with a focus on React and working with public APIs.
 
-## Available Scripts
+**Current status:** Work in progress – the frontend is under development. The backend will follow once the main interface is functional.
 
-In the project directory, you can run:
+## Goals
 
-### `npm start`
+### Application
+- Use the Riot Games API to fetch and analyze match data from League of Legends
+- Display champion statistics such as win rate, pick rate, and ban rate
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Personal Development
+- Practice fullstack development using React (frontend) and FastAPI (backend)
+- Explore clean architecture and UI design principles (MUI, responsive design, etc.)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Stack
 
-### `npm test`
+- **Frontend:** React + TypeScript + MUI
+- **Backend (planned):** FastAPI + PostgreSQL
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features in Progress
 
-### `npm run build`
+- [x] Champion list page with sorting
+- [x] Champion detail layout
+- [ ] Champion detail logic & design
+- [ ] Backend setup
+- [ ] Live data integration (Riot API)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> ⚠️ This is not a production-ready application. It's a learning project and a work in progress.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-
-
-## TO DO
-trouver un json pour ces stats ??
-créer le type StatMods
-https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/
-Sorts des champions : https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champions/
-
-Items : 
-https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/items.json
-https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/items.json
-
-ajouter tooltips
-
-
-43 Karma
-254 Vi
-412 thresh
-58 renek
-61 orianna
-64 lee sin
-777 yone
-81 ezreal
-86 Garen
-222 jinx
-https://static.bigbrain.gg/assets/lol/riot_static/15.7.1/img/spell/OrianaIzunaCommand.webp

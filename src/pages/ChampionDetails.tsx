@@ -105,7 +105,7 @@ const ChampionDetails: React.FC = () => {
             src={championImageUrl}
             alt={championName}
             sx={{
-              width: "100%", // jouer avec ce param
+              width: "95%", // jouer avec ce param
               height: "auto",
               //objectFit: "cover", // Remplit le conteneur en recadrant l'image
               //objectPosition: "top", // Ajuste la position pour garder la partie souhaitée

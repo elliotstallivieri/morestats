@@ -1,0 +1,30 @@
+.site-selector-btn {
+  width: 15rem;
+  height: 15rem;
+  border: 4px solid #1e88e5;
+  background: none;
+  color: #1e88e5;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+  margin: 0 3%;
+}
+
+.site-selector-btn:hover {
+  background-color: #1e88e5;
+  border-color: #ffffff;
+  color: #F0E6D2;
+}
+
+.site-selector-btn img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 12px;
+  user-select: none;
+}

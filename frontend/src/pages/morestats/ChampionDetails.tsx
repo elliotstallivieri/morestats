@@ -1,14 +1,12 @@
 import React from "react";
-import { Box, Button, Typography } from "@mui/material";
-import HomeIcon from "@mui/icons-material/Home";
-import { useNavigate, useParams } from "react-router-dom";
-
-import { Rune } from "../../types/Rune";
+import { Box, Typography } from "@mui/material";
+import { useParams } from "react-router-dom";
 
 import jsonRunes from "../../utils/staticData/runes.json";
-import { toRunePack } from "../../utils/RuneFormatter";
 import staticDataMaker from "../../utils/staticDataMaker";
 
+import { toRunePack } from "../../utils/RuneFormatter";
+import { Rune } from "../../types/Rune";
 import ChampionHeader from "../../components/championDetails/ChampionHeader";
 import ButtonBar from "../../components/championDetails/ButtonBar";
 import PrimaryRuneTree from "../../components/championDetails/RuneSection/PrimaryRuneTree";
@@ -26,7 +24,7 @@ interface RouteParams {
 
 const ChampionDetails: React.FC = () => {
   const { championName } = useParams<RouteParams>() || "Malzahar1";
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
   const championData = staticDataMaker(championName || "Malzahar2");
   return (
     <Box sx={{ p: 2, backgroundColor: "#010A13", height: "100vh" }}>

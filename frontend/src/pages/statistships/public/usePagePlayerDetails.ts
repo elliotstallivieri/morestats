@@ -1,8 +1,8 @@
 //import { useQuery } from '@tanstack/react-query';
-import { getPlayerGameDataExample } from "../../static_data/StatistshipData";
-import { Game } from "../../types/Game";
-import { PlayerGameStats } from "../../types/PlayerGameStats";
-import { getGamesStats } from "../../utils/calculators/getGamesStats";
+import { getPlayerGameDataExample } from "../../../static_data/StatistshipData";
+import { Game } from "../../../types/Game";
+import { PlayerGameStats } from "../../../types/PlayerGameStats";
+import { getGamesStats } from "../../../utils/calculators/getGamesStats";
 
 interface usePagePlayerDetailsProps {
   playerId?: number;

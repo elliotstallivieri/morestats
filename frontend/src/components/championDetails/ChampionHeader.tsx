@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Typography, Select, MenuItem } from "@mui/material";
-import { TocTwoTone } from "@mui/icons-material";
 
 interface ChampionHeaderProps {
   name: string;

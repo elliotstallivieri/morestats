@@ -45,7 +45,7 @@ export function getGamesStats(
       const game = gameData[i];
 
       // find the player's team
-      const playerTeamNumber = gameData[i].teamBlue == playerTeam ? 0 : 1;
+      const playerTeamNumber = gameData[i].teamBlue === playerTeam ? 0 : 1;
 
       // count raw stats
       if (game.winner === (playerTeamNumber === 0)) {
